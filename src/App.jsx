@@ -27,7 +27,7 @@ function App() {
   return (
     <div className='app'>
       <div className='banner'>
-        <img className='banner__img' src="../public/banner-rick-and-morty.png" alt="banner-rick" />
+        <img className='banner__img' src="../banner-rick-and-morty.png" alt="banner-rick" />
       </div>
       <form className='app__form' onSubmit={handleLocation}>
         <input className='app__input' ref={inputLocation} type="text" />
