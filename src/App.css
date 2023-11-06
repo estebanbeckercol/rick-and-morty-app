@@ -3,6 +3,23 @@
     min-height: 100vh;
     min-width: auto;
 }
+.app__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__loader{
+    border: 4px solid green;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: transparent;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 .app__form {
     display: flex;
     justify-content: center;
